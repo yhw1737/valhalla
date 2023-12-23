@@ -1,2 +1,2 @@
 
-pause = !pause;
+if !selpause {pause = !pause;}

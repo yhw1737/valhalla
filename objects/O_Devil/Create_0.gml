@@ -1,6 +1,7 @@
 
 hp = 100;
 maxhp = hp;
+spd = 1;
 
 easing = new EasingFunctions();
 hit = 0;
