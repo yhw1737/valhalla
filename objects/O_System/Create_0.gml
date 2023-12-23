@@ -1,4 +1,6 @@
 
+randomize();
+
 globalvar pause;
 pause = false;
 
@@ -9,3 +11,5 @@ gold = 0;
 exp_ = 10;
 maxexp_ = 10;
 level = 0;
+
+drag = false;

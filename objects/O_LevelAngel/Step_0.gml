@@ -1,5 +1,5 @@
 
-if !pause{
+if !pause && !inven{
 	var in = -4;
 	if instance_exists(O_Devil) {in = instance_nearest(x,y,O_Devil);}
 	else {in = -4}
@@ -37,4 +37,9 @@ if !pause{
 		dmg_ = dmg;
 		attrange+=32;
 	}
+}
+
+if inven && drag{
+	x = mouse_x;
+	y = mouse_y;
 }

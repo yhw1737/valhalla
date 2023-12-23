@@ -19,4 +19,4 @@ else{
 }
 level = clamp(level,0,O_System.level);
 sprite_index = asset_get_index("S_Selection"+string(level));
-image_index = irandom(sprite_get_number(sprite_index));
+image_index = irandom(image_number);

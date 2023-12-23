@@ -1,5 +1,5 @@
 
-if !pause{
+if !pause && !inven{
 	var in = -4;
 	if instance_exists(O_Devil) {in = instance_nearest(x,y,O_Devil);}
 	else {in = -4}
@@ -24,4 +24,9 @@ if !pause{
 	else{
 		if (val > 0) {val-=4/room_speed;}
 	}
+}
+
+if showrange && inven && drag{
+	x = mouse_x;
+	y = mouse_y;
 }
